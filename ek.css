@@ -1,0 +1,57 @@
+body {
+  border: solid 3px rgb(160, 160, 160);
+  padding: 30px;
+  margin: 10px;
+  background-color: rgb(236, 236, 236);
+}
+
+img.ek {
+  width: 30%;
+}
+
+a.link1:link {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+a.link1:hover {
+  text-decoration: underline;
+}
+
+a.link2:link {
+  color: white;
+  text-decoration: none;
+}
+
+a.link2:hover {
+  color: teal;
+  text-decoration: none;
+}
+
+button {
+  padding: 15px 20px;
+  border: solid white 2px;
+  background-color: teal;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+button.top {
+  float: right;
+}
+
+button.buttom {
+}
+
+button:hover {
+  background-color: white;
+  border: solid teal 2px;
+  color: teal;
+}
+
+div.center {
+  text-align: center;
+  display: inline;
+}

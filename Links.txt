@@ -1,0 +1,9 @@
+amd: https://www.techpowerup.com/253954/amd-ryzen-3000-zen-2-bios-analysis-reveals-new-options-for-overclocking-tweaking
+
+
+intel:  https://www.techpowerup.com/253958/several-gen11-gpu-variants-referenced-in-latest-intel-drivers
+
+
+ek:  https://www.techpowerup.com/253961/ek-water-blocks-releases-ek-vector-series-water-blocks-for-amd-radeon-vii
+
+Epic:  https://www.techpowerup.com/253940/epic-games-shows-off-unreal-engine-4-23-physics-destruction-system-chaos-at-gdc-2019
