@@ -5,13 +5,9 @@ body {
   background-color: rgb(236, 236, 236);
 }
 
-a:link {
-  color: rgba(0, 0, 0, 0.6);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+img.info {
+  height: 400px;
+  width: auto;
 }
 
 button {
@@ -24,14 +20,14 @@ button {
   color: white;
 }
 
+button.top {
+  float: right;
+}
+
 button:hover {
   background-color: white;
   border: solid teal 2px;
   color: teal;
-}
-
-button.top {
-  float: right;
 }
 
 div.center {

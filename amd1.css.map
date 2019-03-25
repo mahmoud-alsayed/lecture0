@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,EAAG;EACD,WAAW,EAAE,yGACuC;EACpD,SAAS,EAAE,IAAI;EACf,KAAK,EANC,OAAgB;;AASxB,EAAG;EACD,WAAW,EAAE,iCAAiC;EAC9C,SAAS,EAAE,IAAI;EACf,KAAK,EAZC,OAAgB",
+"sources": ["amd1.scss"],
+"names": [],
+"file": "amd1.css"
+}

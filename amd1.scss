@@ -1,0 +1,14 @@
+$color: rgb(16, 16, 114);
+
+ul {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: $color;
+}
+
+ol {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  color: $color;
+}
