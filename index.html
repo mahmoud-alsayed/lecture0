@@ -1,9 +1,249 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Webpage</title>
+    <title>Tech News</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    Hello, world!
+    <img src="./img/TN-logo (1.0).png" style="width:100%; height:170px" />
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://www.techpowerup.com/reviews/"
+        >Reviews</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.techpowerup.com/forums/"
+              >Forums<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.techpowerup.com/download"
+              >Downloads</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.techpowerup.com/contact/"
+              >CONTACT US</a
+            >
+          </li>
+          <li class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              MORE
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a
+                class="dropdown-item"
+                href="https://www.techpowerup.com/articles/"
+                >Articles</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.techpowerup.com/oldstuff/"
+                >Old Stuff</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.techpowerup.com/trivia/"
+                >Computer Quiz</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="a1">
+        <h3>
+          <img src="./img/ek0.png" style="width:5%; float: left;" />
+          <ins
+            ><a href="ek.html">
+              EK Water Blocks Releases EK-Vector Series Water Blocks for AMD
+              Radeon VII
+            </a></ins
+          >
+        </h3>
+
+        <p>
+          EK Water Blocks, the leading premium computer liquid cooling gear
+          manufacturer, is releasing EK-Vector Radeon VII water blocks that are
+          compatible with reference design AMD Radeon VII graphics cards. This
+          kind of efficient cooling will allow your high-end graphics card to
+          reach higher boost clocks, thus providing more overclocking headroom
+          and more performance during gaming or other GPU intense tasks.<br />
+          <br />
+
+          This water block directly cools the GPU, 16GB of HBM2 memory, and VRM
+          (voltage regulation module) as cooling liquid is channeled directly
+          over these critical areas. These newly developed water blocks feature
+          a redesigned cooling engine that has a larger footprint compared to
+          the previous generation of EK Full Cover water blocks. This results in
+          a larger surface area for heat transfer which increases the thermal
+          performance of these water blocks.
+        </p>
+
+        <div>
+          <a target="blank" href="./img/ek1.jpg">
+            <img class="pic" src="./img/ek1.jpg" />
+          </a>
+
+          <a target="blank" href="./img/ek2.jpg">
+            <img class="pic" src="./img/ek2.jpg" />
+          </a>
+
+          <a target="blank" href="./img/ek3.jpg">
+            <img class="pic" src="./img/ek3.jpg" />
+          </a>
+        </div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="a2">
+        <h3>
+          <img src="./img/epic0.png" style="width:5%; float:left" />
+          <ins
+            ><a href="epic.html">
+              EPIC Games Shows Off Unreal Engine 4.23 Physics, Destruction
+              System "Chaos" at GDC 2019
+            </a></ins
+          >
+        </h3>
+
+        <p>
+          Not all news coming from EPIC covers its EPIC Games Store - though
+          according to the relative attention they've been garnering with the
+          constant scooping up of PC timed exclusives, perhaps it should. This
+          piece of news, alas, covers the company's unreal Engine, which has
+          been one of the hallmarks in games development for a while now, being
+          used for a number of disparate games such as the gears of War games,
+          or even a relatively obscure, Xbox 360 exclusive title, Lost Odyssey.
+          At GDC 2019, EPIC showcased version 4.23 of its Unreal Engine, with
+          particular attention to its improved destruction and physics engine,
+          which they've aptly named "Chaos".
+        </p>
+
+        <div>
+          <a target="blank" href="./img/epic1.jpg">
+            <img class="pic" src="./img/epic1.jpg" width="30%" />
+          </a>
+        </div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="a3">
+        <h3>
+          <img src="./img/intel0..png" style="width:5%; float:left" />
+          <ins
+            ><a href="intel.html">
+              Several Gen11 GPU Variants Referenced in Latest Intel Drivers
+            </a>
+          </ins>
+        </h3>
+
+        <p>
+          The latest version of Intel Graphics drivers which introduce the
+          company's latest UWP-based Graphics Command Center app, hide another
+          secret in their INF. The file has pointers to dozens of variants and
+          implementations of the company's next-generation Gen11 integrated
+          graphics architecture, which we detailed in a recent article. Intel
+          will implement Gen11 on two key processor microarchitectures, "Ice
+          Lake" and "Lakefield," although later down the line, the graphics
+          technology could trickle down to low-power Pentium Silver and Celeron
+          SoC lines, too, with chips based on the "Elkhart Lake" silicon.<br /><br />
+
+          There are 13 variants of Gen11 on "Ice Lake," carved using execution
+          unit (EU) count, and LP (low-power) aggressive power management. The
+          mainstream desktop processors based on "Ice Lake," which are least
+          restrained in power-management, get the most powerful variants of
+          Gen11 under the Iris Plus brand. Iris Plus Graphics 950 is the most
+          powerful implementation, with all 64 EUs enabled, and the highest GPU
+          clock speeds. This variant could feature on Core i7 and Core i9 brands
+          derived from "Ice Lake." Next up, is the Iris Plus Graphics 940, with
+          the same EU count, but likely lower clock speeds, which could feature
+          across the vast lineup of Core i5 SKUs. The Iris Plus 930 comes in two
+          trims based on EU count, of 64 and 48, and could likely be spread
+          across the Core i3 lineup. Lastly, there's the Iris Plus 920 with 32
+          EUs, which could be found in Pentium Gold SKUs. There are various SKUs
+          branded "UHD Graphics Gen11 LP," with EU counts ranging from 32 to 64.
+        </p>
+
+        <div>
+          <a target="blank" href="./img/intel1.jpg"
+            ><img class="pic" src="./img/intel1.jpg"
+          /></a>
+
+          <a target="blank" href="./img/intel2.jpg"
+            ><img class="pic" src="./img/intel2.jpg"
+          /></a>
+        </div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="a4">
+        <h3>
+          <img src="./img/amd0.png" style="width:5%; float:left" />
+
+          <ins
+            ><a href="amd.html">
+              AMD Ryzen 3000 "Zen 2" BIOS Analysis Reveals New Options for
+              Overclocking & Tweaking
+            </a>
+          </ins>
+        </h3>
+
+        <p>
+          AMD will launch its 3rd generation Ryzen 3000 Socket AM4 desktop
+          processors in 2019, with a product unveiling expected mid-year, likely
+          on the sidelines of Computex 2019. AMD is keeping its promise of
+          making these chips backwards compatible with existing Socket AM4
+          motherboards. To that effect, motherboard vendors such as ASUS and MSI
+          began rolling out BIOS updates with AGESA-Combo 0.0.7.x microcode,
+          which adds initial support for the platform to run and validate
+          engineering samples of the upcoming "Zen 2" chips.<br />
+
+          At CES 2019, AMD unveiled more technical details and a prototype of a
+          3rd generation Ryzen socket AM4 processor. The company confirmed that
+          it will implement a multi-chip module (MCM) design even for their
+          mainstream-desktop processor, in which it will use one or two 7 nm
+          "Zen 2" CPU core chiplets, which talk to a 14 nm I/O controller die
+          over Infinity Fabric. The two biggest components of the IO die are the
+          PCI-Express root complex, and the all-important dual-channel DDR4
+          memory controller. We bring you never before reported details of this
+          memory controller.
+        </p>
+
+        <img class="pic" src="./img/amd1.jpg" />
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,30 @@
+div.main {
+  border: solid 3px rgb(160, 160, 160);
+  padding: 30px;
+  margin: 10px 180px 10px 10px;
+  background-color: rgb(236, 236, 236);
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(85, 8, 8);
+}
+
+img.pic {
+  height: 100px;
+  width: auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted black;
+  height: 1px;
+  width: 100%;
+}
+
+body {
+  background-image: url(./img/background.jpg);
+}
