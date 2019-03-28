@@ -68,3 +68,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: cornflowerblue;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
